@@ -1,0 +1,16 @@
+docker ps
+docker exec -it ContainerID psql -U postgres
+CREATE DATABASE database_name;
+
+database connections:-
+spring.datasource.url=jdbc:postgresql://localhost:5432/database_name
+spring.datasource.username=postgres
+spring.datasource.password=123
+# add JPA to the database
+spring.jpa.hibernate.ddl-auto=update
+spring.datasource.driverClassName=org.postgresql.Driver
+spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.PostgreSQL10Dialect
+spring.jpa.properties.hibernate.jdbc.lob.non_contextual_creation=true
+
+#for showing the error exception
+server.error.include-message = always

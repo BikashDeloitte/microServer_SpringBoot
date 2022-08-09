@@ -1,0 +1,10 @@
+Java:
+------
+tool - IDES(Intellij) , Mavan , (Docker/ kubernetes / jenkins)
+JDK - collection , concurrent (thread) , java 8(optional,stream API, lambda), IO (file IO)
+framework - spring , spring boot, Hibernate, JPA , Spring Core , microservice, spring cloud
+API client - restApi , soap
+testing - junit, mockito , powermock , e2e testing, integration test
+utility libraries -  jackson JSON, apache commons, guava
+database - JDBC , JooQ
+i18n - Internationalization(local language)
